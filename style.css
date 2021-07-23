@@ -14,9 +14,9 @@ li:hover{
     
     background-color: aquamarine;
 }
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
     .logo{
         height: 100px;
         right: 10px;
     }
- }
+}
