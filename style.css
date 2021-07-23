@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+header{
+    position: relative;
+}
+.logo{
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+li:hover{
+    height: 2px;
+    
+    background-color: aquamarine;
+}
+@media (min-width: 768px) { 
+    .logo{
+        height: 100px;
+        right: 10px;
+    }
+ }
