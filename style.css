@@ -10,13 +10,56 @@ header{
     top: 0;
 }
 li:hover{
-    height: 2px;
-    
-    background-color: aquamarine;
+    color: rgb(49, 111, 70);
+    border-bottom: 2px solid rgb(49, 111, 70);
+    background-color: transparent;
+    margin: -1px;
 }
+
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.textos-banner{
+    background-color: rgba(49, 111, 70, 0.952);
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -80px;
+}
+.textos-banner h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 74px;
+}
+.textos-banner h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 42px;
+}
+
 @media (max-width: 768px) { 
     .logo{
         height: 100px;
         right: 10px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .textos-banner{
+        height: 150px;
+    }
+    .textos-banner h1{
+        font-size: 50px;
+    }
+    .textos-banner h2{
+        font-size: 30px;
     }
 }
