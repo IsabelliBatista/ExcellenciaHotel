@@ -1,29 +1,13 @@
-<!doctype html>
-<html lang="en">
+﻿@{
+    ViewData["Title"] = "Excellencia Hotel";
+}
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&display=swap" rel="stylesheet">
-
-    <title>Excellencia Hotel</title>
-</head>
-
-<body>
     <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
         <div class="container">
-            <img src="img/Logo_PIM.png" alt="" class="logo">
+            <img src="~/image/Logo_PIM.png" alt="" class="logo" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -88,7 +72,7 @@
                 <b>das melhores promoções</b>
                 <p>pelo seu email</p>
             </div>
-            <input type="email" name="email" id="email" placeholder="Digite seu email">
+            <input type="email" name="email" id="email" placeholder="Digite seu email" />
             <button class="btn-newsletter">Enviar</button>
         </div>
     </div>
@@ -138,14 +122,14 @@
             </article>
             <div class="galeria">
                 <div class="parte1-galeria">
-                    <img src="img/img-galeria1.png" alt="img1">
-                    <img src="img/img-galeria2.png" alt="img1">
-                    <img src="img/img-galeria3.png" alt="img1">
+                    <img src="~/image/img-galeria1.png" alt="img1" />
+                    <img src="~/image/img-galeria2.png" alt="img1" />
+                    <img src="~/image/img-galeria3.png" alt="img1" />
                 </div>
                 <div class="parte1-galeria">
-                    <img src="img/img-galeria4.png" alt="img1">
-                    <img src="img/img-galeria5.png" alt="img1">
-                    <img src="img/img-galeria6.png" alt="img1">
+                    <img src="~/image/img-galeria4.png" alt="img1" />
+                    <img src="~/image/img-galeria5.png" alt="img1" />
+                    <img src="~/image/img-galeria6.png" alt="img1" />
                 </div>
             </div>
             <div class="Lazer">
@@ -172,7 +156,7 @@
                     <h3>Sobre nós</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <div class="txt-tel">
-                        <img src="img/tel.png" alt="tel">
+                        <img src="~/image/tel.png" alt="tel" />
                         <p>55 11 925416325</p>
                     </div>
                 </div>
@@ -186,33 +170,30 @@
     </main>
     <footer>
         <div class="footer-parte1">
-                <div class="parte1-logo">
-                    <img src="img/logo-footer.png" alt="logo branco">
-                </div>
-                <div class="parte1-menu1">
-                    <h4>Telefone</h4>
-                    <p>+55 11 5823-4235 <br>
-                        +55 11 9723-5734</p>
-                </div>
-                <div class="parte1-menu2">
-                    <h4>Email</h4>
-                    <p>suporte@hotelex.com</p>
-                </div>
-                <div class="parte1-menu3">
-                    <p>Siga nossas
-                        redes sociais</p>
-                    <div class="redes">
-                        <img src="img/rede-facebook.png" alt="facebook">
-                        <img src="img/rede-instagram.png" alt="instagram">
-                    </div>
+            <div class="parte1-logo">
+                <img src="~/image/logo-footer.png" alt="logo branco" />
+            </div>
+            <div class="parte1-menu1">
+                <h4>Telefone</h4>
+                <p>
+                    +55 11 5823-4235 <br />
+                    +55 11 9723-5734
+                </p>
+            </div>
+            <div class="parte1-menu2">
+                <h4>Email</h4>
+                <p>suporte@hotelex.com</p>
+            </div>
+            <div class="parte1-menu3">
+                <p>
+                    Siga nossas
+                    redes sociais
+                </p>
+                <div class="redes">
+                    <img src="~/image/rede-facebook.png" alt="facebook" />
+                    <img src="~/image/rede-instagram.png" alt="instagram" />
                 </div>
             </div>
-            <div class="footer-parte2">Todos os direitos reservados</div>
+        </div>
+        <div class="footer-parte2">Todos os direitos reservados</div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
