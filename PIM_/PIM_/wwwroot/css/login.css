@@ -1,0 +1,71 @@
+﻿.banner {
+    background-image: url(img/banner-login.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .banner .modal-registro {
+        width: 464px;
+        background-color: white;
+        padding: 30px 0;
+    }
+
+        .banner .modal-registro h1 {
+            font-size: 30px;
+            text-align: center;
+            color: #316f46;
+        }
+
+.modal-registro .form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+    .modal-registro .form input {
+        border: none;
+        border-bottom: 2px solid #316f46;
+        outline: none;
+        padding: 10px;
+        width: 340px;
+    }
+
+.modal-registro .button-entrar button {
+    background-color: rgba(49, 111, 70, 0.82);
+    width: 260px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #316f46;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.fazer-login {
+    color: #316f46;
+    display: flex;
+}
+
+    .fazer-login span {
+        font-weight: bold;
+    }
+
+.esqueci-senha {
+    margin-right: 220px;
+    padding-top: 1px;
+    margin-top: -15px;
+    font-size: 14px;
+    color: #316f46;
+}

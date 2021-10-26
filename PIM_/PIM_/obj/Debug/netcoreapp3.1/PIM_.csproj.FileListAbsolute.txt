@@ -35,3 +35,43 @@ D:\FACULDADE\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.dll
 D:\FACULDADE\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.pdb
 D:\FACULDADE\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.genruntimeconfig.cache
 D:\FACULDADE\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.csproj.CopyComplete
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.exe
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.deps.json
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.runtimeconfig.json
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.runtimeconfig.dev.json
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.dll
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.pdb
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.Views.dll
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\PIM_.Views.pdb
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.csproj.AssemblyReference.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.AssemblyInfoInputs.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.AssemblyInfo.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.csproj.CoreCompileInputs.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.RazorAssemblyInfo.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.RazorAssemblyInfo.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\staticwebassets\PIM_.StaticWebAssets.Manifest.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\staticwebassets\PIM_.StaticWebAssets.xml
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\scopedcss\bundle\PIM_.styles.css
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.TagHelpers.input.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.TagHelpers.output.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.RazorCoreGenerate.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.RazorTargetAssemblyInfo.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.RazorTargetAssemblyInfo.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.Views.pdb
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.dll
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.pdb
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.genruntimeconfig.cache
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\PIM_.csproj.CopyComplete
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Home\login.cshtml.g.cs
