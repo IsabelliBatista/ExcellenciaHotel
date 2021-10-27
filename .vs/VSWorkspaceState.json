@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PIM_",
+    "\\PIM_\\PIM_",
+    "\\PIM_\\PIM_\\wwwroot",
+    "\\PIM_\\PIM_\\wwwroot\\css"
   ],
+  "SelectedNode": "\\PIM_\\PIM_.sln",
   "PreviewInSolutionExplorer": false
 }

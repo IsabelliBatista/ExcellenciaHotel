@@ -1,31 +1,31 @@
 ﻿@{
     ViewData["Title"] = "Excellencia Hotel";
 }
-@section login {
-    <div id="login">
-        Creating a Consistent Look
-    </div>
-}
 
-<div class="banner">
-    <div class="modal-registro">
-        <h1>LOGIN</h1>
-        <div class="form">
-            <div>
-                <input type="email" placeholder="E-mail" />
-            </div>
-            <div>
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/login.css")" />
+</head>
+<body>
+    <div class="banner-login">
+        <div class="modal-registro">
+            <h1>LOGIN</h1>
+            <div class="form">
+                <div>
+                    <input type="email" placeholder="E-mail" />
+                </div>
+                <div>
 
-                <input type="password" placeholder="Senha" />
-            </div>
-            <span class="esqueci-senha">Esqueci a Senha</span>
-            <div class="button-entrar">
-                <button>ENTRAR</button>
-            </div>
-            <div class="fazer-login">
-                <p>Não tem conta?</p>
-                <span>Criar conta</span>
+                    <input type="password" placeholder="Senha" />
+                </div>
+                <span class="esqueci-senha">Esqueci a Senha</span>
+                <div class="button-entrar">
+                    <button>ENTRAR</button>
+                </div>
+                <div class="fazer-login">
+                    <p>Não tem conta?</p>
+                    <span>Criar conta</span>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</body>
