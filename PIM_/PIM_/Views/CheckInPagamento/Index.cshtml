@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewData["Title"] = "Pagamento";
+}
+
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
+</head>
+
+<body>
+  <!--  <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+        <div class="container">
+            <img src="../img/Logo_PIM.png" alt="" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Acomodações</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Lazer</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-success me-2" type="submit">Perfil</button>
+                    <button class="btn btn-outline-danger" type="submit">Sair</button>
+                </form>
+            </div>
+        </div>
+    </header> -->
+    <div class="banner-check">
+        <h2 class="h2 fw-bolder">Reserva</h2>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Pagamento</div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="row g-0 bg-light position-relative p-4">
+                <div class="row">
+
+                    <h4 class="pt-3 fw-bolder">Tipo de pagamento</h4>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label fs-5" for="flexRadioDefault1">
+                            Cartão de crédito
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label fs-5" for="flexRadioDefault2">
+                            Cartão de débito
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label fs-5" for="flexRadioDefault2">
+                            Paypal
+                        </label>
+                    </div>
+                    <br>
+
+                    <h4 class="pt-3 fw-bolder">Dados do Cartão</h4>
+                    <div class="col-md-6">
+                        <label for="cc-name" class="form-label">Nome do Cartão</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Nome completo</small>
+                        <div class="invalid-feedback">
+                            Campo obrigatório
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="cc-number" class="form-label">Número do Cartão</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Campo obrigatório
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label">Data de Validade</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Data expirada
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Code de segurança obrigatório
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto btn-enviar">
+                <a class="btn btn-success" href="/CheckInFim">Avançar</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+

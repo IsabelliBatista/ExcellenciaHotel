@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Finalizado";
+}
+
+
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
+</head>
+
+
+<body>
+    <!--  <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+          <div class="container">
+              <img src="../img/Logo_PIM.png" alt="" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+                      <li class="nav-item px-2">
+                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a class="nav-link" aria-current="page" href="#">Acomodações</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a class="nav-link" aria-current="page" href="#">Lazer</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a class="nav-link" aria-current="page" href="#">Contato</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <button class="btn btn-success me-2" type="submit">Perfil</button>
+                      <button class="btn btn-outline-danger" type="submit">Sair</button>
+                  </form>
+              </div>
+          </div>
+      </header> -->
+    <div class="banner-check">
+        <h2 class="h2 fw-bolder">Reserva</h2>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Reservado</div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="main-elementos">
+                <div class="bola">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    </svg>
+
+                </div>
+                <h3 class="fw-bolder pt-3">Sua reserva n° 123</h3>
+                <h3 class="fw-bolder">está confirmada</h3>
+                <h5>Fique atento nas datas e no seu email</h5>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto btn-enviar">
+                <a class="btn btn-success" href="/Home">Voltar para HOME</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+

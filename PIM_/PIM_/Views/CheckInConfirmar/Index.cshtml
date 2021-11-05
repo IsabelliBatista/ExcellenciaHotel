@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "Confirmar";
+}
+
+
+
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
+</head>
+
+<body>
+    <!--  <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+           <div class="container">
+               <img src="../img/Logo_PIM.png" alt="" class="logo">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                       aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+                       <li class="nav-item px-2">
+                           <a class="nav-link" aria-current="page" href="#">Home</a>
+                       </li>
+                       <li class="nav-item px-2">
+                           <a class="nav-link" aria-current="page" href="#">Acomodações</a>
+                       </li>
+                       <li class="nav-item px-2">
+                           <a class="nav-link" aria-current="page" href="#">Lazer</a>
+                       </li>
+                       <li class="nav-item px-2">
+                           <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                       </li>
+                       <li class="nav-item px-2">
+                           <a class="nav-link" aria-current="page" href="#">Contato</a>
+                       </li>
+                   </ul>
+                   <form class="d-flex">
+                       <button class="btn btn-success me-2" type="submit">Perfil</button>
+                       <button class="btn btn-outline-danger" type="submit">Sair</button>
+                   </form>
+               </div>
+           </div>
+       </header> -->
+    <div class="banner-check">
+        <h2 class="h2 fw-bolder">Reserva</h2>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Confirmação</div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="row g-0 bg-light position-relative p-4">
+                <div class="row">
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Quarto Family</h5>
+                        <p>3 Camas, 2 banheiros, uma sala, uma área de lazer, em frente da piscina</p>
+                    </div>
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Quantidade de Pessoas</h5>
+                        <p>3</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Check In</h5>
+                        <p>01/11/2021</p>
+                    </div>
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Check Out</h5>
+                        <p>05/11/2021</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Diárias</h5>
+                        <p>5</p>
+                    </div>
+                    <div class="col border p-2">
+                        <h5 class="mt-0 fw-bolder">Total</h5>
+                        <p>R$ 00,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto btn-enviar">
+                <a class="btn btn-success" href="/CheckInPagamento">Avançar</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+

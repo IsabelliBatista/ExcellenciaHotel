@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewData["Title"] = "Favoritos";
+}
+
+
+
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
+</head>
+
+<body>
+ <!--   <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+        <div class="container">
+            <img src="../img/Logo_PIM.png" alt="" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Acomodações</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Lazer</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="#">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-success me-2" type="submit">Perfil</button>
+                    <button class="btn btn-outline-danger" type="submit">Sair</button>
+                </form>
+            </div>
+        </div>
+    </header> -->
+    <div class="banner-fav">
+        <h2 class="h2 fw-bolder">Favoritos</h2>
+    </div>
+    <main>
+        <div class="container">
+            <div class="sessao-quartos m-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="~/image/img-galeria1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Quarto Family</h5>
+                                <p class="card-text">Venha com sua familia curtir o hotel e aproveite esse quarto tamanho familia</p>
+                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
+                                <button type="button" class="btn btn-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                    </svg>
+                                    Desfavoritar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="~/image/img-galeria2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Quarto Casal</h5>
+                                <p class="card-text">Venha curtir com seu amado(a) neste hotel e com essa vista e tudo de melhor</p>
+                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
+                                <button type="button" class="btn btn-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                    </svg>
+                                    Desfavoritar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="~/image/img-galeria3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Quarto de Amigos</h5>
+                                <p class="card-text">Venha curtir neste hotel, aqui tem tudo o que você precisa para relaxar</p>
+                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
+                                <button type="button" class="btn btn-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                    </svg>
+                                    Desfavoritar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+
+

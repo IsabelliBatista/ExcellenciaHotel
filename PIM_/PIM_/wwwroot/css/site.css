@@ -323,6 +323,9 @@ article {
     text-align: center;
     color: #fff;
 }
+footer .redes img {
+    width: 36px;
+}
 
 @media (max-width: 600px) {
     .sobre-txt {
