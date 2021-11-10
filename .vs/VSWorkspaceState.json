@@ -3,9 +3,9 @@
     "",
     "\\PIM_",
     "\\PIM_\\PIM_",
+    "\\PIM_\\PIM_\\Controllers",
     "\\PIM_\\PIM_\\Views",
-    "\\PIM_\\PIM_\\Views\\Cadastro",
-    "\\PIM_\\PIM_\\wwwroot"
+    "\\PIM_\\PIM_\\Views\\Login"
   ],
   "SelectedNode": "\\PIM_\\PIM_.sln",
   "PreviewInSolutionExplorer": false
