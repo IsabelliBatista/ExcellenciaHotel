@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PIM_.Models
 {
-    public class Quartos
+    public class QuartosModels
     {
         public int Id { get; set; }
         public string Nome { get; set; }
