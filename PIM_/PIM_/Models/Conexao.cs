@@ -8,7 +8,7 @@ namespace PIM_.Models
 {
     public class Conexao
     {
-        private static string Connection = @"Persist Security Info=False;User ID=isabelli;Initial Catalog=HotelariaExcellencia;Data Source=DESKTOP-N2K30DI\SQLSERVER";
+        private static string Connection = @"Password=123456;Persist Security Info=True;User ID=isabelli;Initial Catalog=HotelariaExcellencia;Data Source=DESKTOP-N2K30DI\SQLSERVER";
     
         public static SqlConnection GetConnection()
         {

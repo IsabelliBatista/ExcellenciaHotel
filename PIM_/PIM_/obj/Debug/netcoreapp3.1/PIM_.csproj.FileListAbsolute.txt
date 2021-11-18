@@ -211,3 +211,4 @@ C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM
 C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\bin\Debug\netcoreapp3.1\bundleconfig.json
 C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\_padrao404.cshtml.g.cs
 C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Login\Erro.cshtml.g.cs
+C:\Users\Isabelli Batista\Source\Repos\IsabelliBatista\ExcellenciaHotel\PIM_\PIM_\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Erro.cshtml.g.cs

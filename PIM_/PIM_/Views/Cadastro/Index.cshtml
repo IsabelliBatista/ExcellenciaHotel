@@ -8,37 +8,26 @@
 </head>
 <body>
     <div class="banner-cadastro">
-
         <div class="modal-registro">
-
             <h1>CRIE UMA CONTA</h1>
-            @{ using (Html.BeginForm())
-                {
-                    <form class="form" asp-action="Confirmar" method="post">
-                        <div class="form-group">
-                            @Html.TextBox("nome", "", new { @class = "nome", placeholder = "Nome" })
-                            <!--<input type="text" placeholder="Nome" name="nome" />-->
-                        </div>
-                        <div>
-                            @Html.TextBox("email", "", new{@class = "email", placeholder = "email"})
-                            <!--<input type="email" placeholder="E-mail" name="email" /> -->
-                        </div>
-                        <div>
-                            @Html.TextBox("senha", "", new { @class = "senha", placeholder = "senha" })
-                            <!--<input type="password" placeholder="Senha" name="senha" />-->
-                            </div>
-                        <div class="button-entrar">
-                            <input type="submit" class="btn btn-success" value="CONFIRMAR" />
-                        </div>
-                        <div class="fazer-login">
-                            <p>Ja tem Conta?</p>
-                            <span>Fazer Login</span>
-                        </div>
-                    </form>
-                }
-
-            }
-
+            <form asp-action="Verificar" method="post" class="form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nome" name="nome" />
+                </div>
+                <div>
+                    <input type="email" placeholder="E-mail" name="email" /> 
+                </div>
+                <div>
+                    <input type="password" placeholder="Senha" name="senha" />
+                </div>
+                <div class="button-entrar">
+                    <input type="submit" class="btn btn-success" value="CONFIRMAR" />
+                </div>
+                <div class="fazer-login">
+                    <p>Ja tem Conta?</p>
+                    <span>Fazer Login</span>
+                </div>
+            </form>
     </div>
     </div>
 

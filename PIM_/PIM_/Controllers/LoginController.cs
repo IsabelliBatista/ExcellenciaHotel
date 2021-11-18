@@ -42,9 +42,6 @@ namespace PIM_.Controllers
                 con.Close();
                 return View("Erro");
             }
-            
-            
         }
-
     }
 }

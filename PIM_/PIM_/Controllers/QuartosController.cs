@@ -13,41 +13,25 @@ namespace PIM_.Controllers
 {
     public class QuartosController : Controller
     {
-        /*   private readonly ILogger<QuartosController> _logger;
-
-          public QuartosController(ILogger<QuartosController> logger)
-           {
-               _logger = logger;
-           } */
+        SqlConnection con = new SqlConnection();
+        SqlCommand com = new SqlCommand();
+        SqlDataReader dr;
+       
         string conexao = @"Password=123456;Persist Security Info=True;User ID=isabelli;Initial Catalog=HotelariaExcellencia;Data Source=DESKTOP-N2K30DI\SQLSERVER";
 
-        
-        
+        void connectionString()
+        {
+            con.ConnectionString = @"Password=123456;Persist Security Info=True;User ID=isabelli;Initial Catalog=HotelariaExcellencia;Data Source=DESKTOP-N2K30DI\SQLSERVER";
+        }
+
         public IActionResult Index()
         {
-            /*DataTable tabelaquartos = new DataTable();
-            using (SqlConnection sqlCon = new SqlConnection(conexao))
-            {
-                sqlCon.Open();
-                List<QuartosModels> quartosModels = con.Quartos.ToList();
-                List<QuartosModels> quartosVas = new List<QuartosModels>;
-                foreach (QuartosModels item in quartosModels)
-                {
-                    QuartosModels quartosVm = new QuartosModels();
-                    quartosVm.Nome = item.Nome;
-                    quartosVm.Descricao = item.Descricao;
-                    quartosVm.Preco = item.Preco;
-                }
-            }*/
+            connectionString();
+            con.Open();
+            com.Connection = con;
+            com.CommandText = "SELECT * FROM tbl_Quarto";
+            dr = com.ExecuteReader();
             return View();
         }
-      
-
-        
-   /* public IActionResult ListarQuartos(QuartosModels _acc)
-    {
-            
-            
-        }*/
     }
 }
