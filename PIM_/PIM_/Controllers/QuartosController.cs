@@ -26,12 +26,30 @@ namespace PIM_.Controllers
 
         public IActionResult Index()
         {
+            
             connectionString();
             con.Open();
             com.Connection = con;
-            com.CommandText = "SELECT * FROM tbl_Quarto";
+            com.CommandText = "SELECT ID, nome, descricao, preco, foto FROM tbl_Quarto";
             dr = com.ExecuteReader();
-            return View();
+
+            List<QuartosModels> quartos = new List<QuartosModels>();
+
+            while (dr.Read())
+            {
+                QuartosModels quarto = new QuartosModels();
+                quarto.Id = dr.GetInt32(0);
+                quarto.Nome = dr.GetString(1);
+                quarto.Descricao = dr.GetString(2);
+                quarto.Preco = dr.GetDecimal(3);
+                quarto.Foto = (byte[])dr.GetValue(4);
+
+                quartos.Add(quarto);
+            }
+
+            ViewData["Quartos"] = quartos;
+
+            return View("Index");
         }
     }
 }

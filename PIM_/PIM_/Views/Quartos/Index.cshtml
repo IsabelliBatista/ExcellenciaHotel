@@ -28,74 +28,34 @@
         <div class="container">
             <div class="sessao-quartos">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="~/image/img-galeria1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Quarto Family</h5>
-                                <p class="card-text">Venha com sua familia curtir o hotel e aproveite esse quarto tamanho familia</p>
-                                <a href="/CheckInDatas" class="btn btn-success stretched-link">Ver Mais</a>
-                                <button type="button" class="btn btn-outline-danger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                                    </svg>
-                                    Favoritar
-                                </button>
+
+                    @foreach (var item in ViewBag.Quartos)
+                    {
+
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="data:image;base64,@System.Convert.ToBase64String(item.Foto)" />
+                                <div class="card-body">
+                                    <h5 class="card-title">@item.Nome</h5>
+                                    <p class="card-text">@item.Descricao</p>
+                                    <p class="card-text">@item.Preco</p>
+                                    <a href="/CheckInDatas" class="btn btn-success stretched-link">Ver Mais</a>
+                                    <button type="button" class="btn btn-outline-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                        </svg>
+                                        Favoritar
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="~/image/img-galeria2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Quarto Casal</h5>
-                                <p class="card-text">Venha curtir com seu amado(a) neste hotel e com essa vista e tudo de melhor</p>
-                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
-                                <button type="button" class="btn btn-outline-danger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                                    </svg>
-                                    Favoritar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="~/image/img-galeria3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Quarto de Amigos</h5>
-                                <p class="card-text">Venha curtir neste hotel, aqui tem tudo o que você precisa para relaxar</p>
-                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
-                                <button type="button" class="btn btn-outline-danger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                                    </svg>
-                                    Favoritar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="~/image/img-galeria4.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Quarto Luxo</h5>
-                                <p class="card-text">Venha curtir neste hotel, aqui tem tudo o que você precisa para relaxar</p>
-                                <a href="#" class="btn btn-success stretched-link">Ver Mais</a>
-                                <button type="button" class="btn btn-outline-danger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                                    </svg>
-                                    Favoritar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    }
+
+
                 </div>
             </div>
         </div>
-    </main>
+        </main>
 
     <div class="container">
         <div class="galeria">
