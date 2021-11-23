@@ -1,8 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Excellencia Hotel";
 }
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/site.css")" />
+</head>
+<body>
 
-    
     <div class="banner">
         <div class="container">
             <div class="textos-banner">
@@ -15,19 +18,19 @@
     <section>
         <div class="container">
             <div class="section-cards-all">
-                <div class="section-card">
+                <div class="section-card" id="img1section">           
+                    <div class="card-descricao">
+                        <h3>Quarto <b>Família</b></h3>
+                    </div>
+                </div>
+                <div class="section-card" id="img2section">
                     <div class="card-descricao">
                         <h3>Quarto <b>Luxo</b></h3>
                     </div>
                 </div>
-                <div class="section-card">
+                <div class="section-card" id="img3section">
                     <div class="card-descricao">
-                        <h3>Quarto <b>Luxo</b></h3>
-                    </div>
-                </div>
-                <div class="section-card">
-                    <div class="card-descricao">
-                        <h3>Quarto <b>Luxo</b></h3>
+                        <h3>Quarto <b>Casal</b></h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +91,7 @@
                     </div>
                 </div>
             </article>
-            <div class="galeria">
+            <div class="galeria" id="galeria">
                 <div class="parte1-galeria">
                     <img src="~/image/img-galeria1.png" alt="img1" />
                     <img src="~/image/img-galeria2.png" alt="img1" />
@@ -100,7 +103,7 @@
                     <img src="~/image/img-galeria6.png" alt="img1" />
                 </div>
             </div>
-            <div class="Lazer">
+            <div class="Lazer" id="lazer">
                 <h1>Lazer</h1>
                 <div class="sessao-lazer">
                     <div class="img-lazer1">
@@ -119,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sobre">
+            <div class="sobre" id="contato">
                 <div class="sobre-txt">
                     <h3>Sobre nós</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
@@ -136,4 +139,5 @@
             </div>
         </div>
     </main>
- 
+
+    </body>
