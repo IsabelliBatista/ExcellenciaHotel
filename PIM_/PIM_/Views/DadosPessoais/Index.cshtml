@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Dados Pessoais";
+    Layout = "~/Views/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
+</head>
+<body>
+    <div class="banner-dados-pessoais">
+        <h2 class="h2 fw-bolder">Meus Dados</h2>
+    </div>
+<div class="formularios mt-5 mb-5">
+    <div class="container">
+        <form class="row g-3">
+            <div class="col">
+                <h5>Dados pessoais</h5>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome completo">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="+55 11 9 1234-1234">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="999.999.999.99">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Editar -></button>
+                </div>
+            </div>
+            <div class="col">
+                <h5>Dados da Conta</h5>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="email@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="*********">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Mudar dados -></button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+</body>
+

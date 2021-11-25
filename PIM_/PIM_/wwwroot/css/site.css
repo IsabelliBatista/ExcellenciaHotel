@@ -27,7 +27,16 @@ li:hover {
     display: flex;
     align-items: flex-end;
 }
-
+.banner-dados-pessoais {
+    background-image: url(../image/banner-cadastro.png);
+    padding: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 .textos-banner {
     background-color: rgba(49, 111, 70, 0.952);
     height: 200px;

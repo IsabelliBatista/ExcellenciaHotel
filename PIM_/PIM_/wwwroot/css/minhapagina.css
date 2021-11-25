@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+
+li:hover {
+    color: rgb(49, 111, 70);
+    border-bottom: 2px solid rgb(49, 111, 70);
+    background-color: transparent;
+    margin: -1px;
+}
+.banner-minha-pagina {
+    background-image: url(../image/banner-check.png);
+    padding: 50px;
+    background-attachment: fixed;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.dados h1 {
+    color: black;
+    padding-bottom: 50px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+    .dados .meus-dados {
+        width: 500px;
+        height: 55px;
+        background-color: rgb(201, 253, 219);
+        margin: auto;
+    }
+
+.quadrado {
+    display: flex;
+    padding: 10px 110px 10px 50px;
+    background-color: rgb(201, 253, 219);
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.quadrado {
+    width: 40%;
+    height: 55px;
+    background-color: rgb(201, 253, 219);
+    margin: auto;
+    margin-top: 20px;
+}
+
+    .quadrado:hover {
+        background-color: rgb(86, 207, 128);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+    }
+a, p{
+    text-decoration:none;
+    color:#000;
+}
+
+@media (max-width: 600px) {
+    .quadrado {
+        width: 90%;
+        height: 40px;
+        font-size: 13px;
+    }
+}

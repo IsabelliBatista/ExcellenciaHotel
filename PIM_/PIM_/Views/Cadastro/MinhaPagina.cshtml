@@ -3,6 +3,27 @@
     ViewData["Title"] = "MinhaPagina";
     Layout = "~/Views/_Layout.cshtml";
 }
+<head>
+    <link rel="stylesheet" href="@Url.Content("~/css/minhapagina.css")" />
+</head>
 
-<h1>MinhaPagina</h1>
+<body>
+    <div class="banner-minha-pagina">
+        <h2 class="h2 fw-bolder">Meus Dados</h2>
+    </div>
+
+    <div class="dados">
+        <h1>Seja - Bem Vindo(a), Nome</h1>
+        <a class="quadrado" href="/DadosPessoais">
+            <p>Meus Dados</p>
+        </a>
+        <a class="quadrado" href="/Favoritos">
+            <p> Favoritos</p>
+        </a>
+        <a class="quadrado" href="/MinhaReserva">
+            <p>Minha Reserva</p>
+        </a>
+    </div>
+</body>
+
 

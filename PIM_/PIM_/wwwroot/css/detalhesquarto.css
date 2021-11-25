@@ -1,0 +1,106 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+
+li:hover {
+    color: rgb(49, 111, 70);
+    border-bottom: 2px solid rgb(49, 111, 70);
+    background-color: transparent;
+    margin: -1px;
+}
+
+.banner {
+    background-image: url(../image/Banner-quartos.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.h2 {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-suite {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .info1 h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .info1 h2 {
+        font-weight: bold;
+        color: #316f46;
+    }
+
+.info-quarto p {
+    padding: 45px;
+}
+
+.valor-diaria h3 {
+    padding: 30px;
+}
+
+.preco-diaria {
+    background-color: transparent;
+    padding: 10px;
+    border: grey solid 1px;
+    text-align: center;
+}
+
+    .preco-diaria h3 {
+        font-size: 22px;
+    }
+
+.botao-reserva button {
+    background: rgb(84, 157, 109, 80);
+    border: none;
+    align-content: center;
+    margin-top: 50px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.fotos-quarto {
+    padding: 30px;
+    text-align: center;
+}
+
+.img-quarto {
+    margin: 30px;
+}
