@@ -1,46 +1,10 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Pagamento";
 }
-
 <head>
     <link rel="stylesheet" href="@Url.Content("~/css/checkin.css")" />
 </head>
-
 <body>
-  <!--  <header class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
-        <div class="container">
-            <img src="../img/Logo_PIM.png" alt="" class="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
-                    <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Acomodações</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Lazer</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Contato</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <button class="btn btn-success me-2" type="submit">Perfil</button>
-                    <button class="btn btn-outline-danger" type="submit">Sair</button>
-                </form>
-            </div>
-        </div>
-    </header> -->
     <div class="banner-check">
         <h2 class="h2 fw-bolder">Reserva</h2>
     </div>
@@ -76,7 +40,6 @@
                         </label>
                     </div>
                     <br>
-
                     <h4 class="pt-3 fw-bolder">Dados do Cartão</h4>
                     <div class="col-md-6">
                         <label for="cc-name" class="form-label">Nome do Cartão</label>
@@ -86,7 +49,6 @@
                             Campo obrigatório
                         </div>
                     </div>
-
                     <div class="col-md-6">
                         <label for="cc-number" class="form-label">Número do Cartão</label>
                         <input type="text" class="form-control" id="cc-number" placeholder="" required>
@@ -94,7 +56,6 @@
                             Campo obrigatório
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <label for="cc-expiration" class="form-label">Data de Validade</label>
                         <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
@@ -102,7 +63,6 @@
                             Data expirada
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <label for="cc-cvv" class="form-label">CVV</label>
                         <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
@@ -111,7 +71,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="d-grid gap-2 col-6 mx-auto btn-enviar">
                 <a class="btn btn-success" href="/CheckInFim">Avançar</a>
